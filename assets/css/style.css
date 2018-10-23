@@ -53,11 +53,13 @@ ul,ol li{
     font-size: 20px;
 }
 
-.menu  a:active{
+.menu-atual{
     color:#966E3F;
     font-weight: bold;
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: #D8D8D8 solid 3px;
 }
 .menu h1{
     font-style: normal;
@@ -171,10 +173,8 @@ ul,ol li{
 }
 
 .media-home{
-    background-color: #966E3F;
     text-align: left;
     padding: 20px;
-    box-shadow: -6px -6px 30px rgba(0, 0, 0, 0.25);
 }
 
 .media-home img{
