@@ -1,0 +1,266 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D8D8D8;
+}
+
+.menu{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 80px;
+    background: #201F1F;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-nav{
+    padding-right: 80px;
+}
+
+ul,ol li{
+    list-style: none;
+  }
+  
+.menu li{
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    font-style: normal;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.menu  a:hover{
+    color:#966E3F;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu h1{
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #D8D8D8;
+    float: right;
+}
+
+#sobre{
+    display: flex;
+}
+
+.sobre{
+    float: right;
+    width: 800px;
+}
+
+.img-side-left{
+    float: left;
+    width: 565px;
+    height: 800px;
+    left: 0px;
+    margin-top: 80px;
+    background: url(../img/perdeu-cartaz.png);
+}
+
+.sinopse{
+    background: #966E3F;
+    font-size: 36px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #201F1F;
+    padding: 80px 20px 20px 40px;
+}
+
+.sinopse-2{
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: -310px;
+    margin-left: -5px;
+}
+
+.about{
+    background-color: #201F1F;
+    padding: 20px ;
+    background-image: url(../img/perfil-caio.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.title-about{
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #D8D8D8;
+}
+
+.title-about2{
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #D8D8D8;
+    opacity: 0.1;
+    margin-top: -65px;
+    margin-left: -5px;
+}
+
+.about-content{
+    width: 300px;
+    color: #966E3F;
+    font-size: 13px;
+}
+
+.title{
+    padding: 20px;
+    background-image: url(../img/title.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 350px;
+}
+
+.title-1{
+    font-family: Roboto;
+    font-size: 48px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: #201F1F;
+    margin: 0;
+}
+
+.title-2{
+    font-family: Roboto;
+    font-size: 48px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top:-50px;
+    margin-left: -3px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.content-home{
+    width: 640px;
+    margin-left: 20px;
+}
+
+.media-home{
+    background-color: #966E3F;
+    text-align: left;
+    padding: 20px;
+    box-shadow: -6px -6px 30px rgba(0, 0, 0, 0.25);
+}
+
+.media-home img{
+    width: 100%;
+}
+
+.media-home p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 13px;
+    color: #201F1F;
+    margin: 0;
+}
+
+.link-next{
+    float: right;
+    color: #966E3F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px #966E3F solid;
+    text-decoration: none;
+    margin: 40px;
+}
+
+.link-next:hover{
+    float: right;
+    color: #201F1F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px #201F1F solid;
+    text-decoration: none;
+    margin: 40px;
+}
+
+.info{ 
+    width: 100%;
+    height: 80px;
+    background: #201F1F;
+    margin: 0;
+    padding: 0;   
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.info li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 13px;
+    color: #D8D8D8;
+    margin: 0;
+}
+
+.info-tecnica{
+    float: left;
+    margin-left: 240px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.info-contato{
+    float: right;
+    margin-right: 240px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.info a{
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.info  a:hover{
+    color: #966E3F;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 15px;
+}
