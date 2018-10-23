@@ -52,6 +52,13 @@ ul,ol li{
     font-weight: bold;
     font-size: 20px;
 }
+
+.menu  a:active{
+    color:#966E3F;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 20px;
+}
 .menu h1{
     font-style: normal;
     font-weight: bold;
@@ -152,7 +159,7 @@ ul,ol li{
     letter-spacing: 0.23em;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.3);
-    margin-top:-50px;
+    margin-top:-63px;
     margin-left: -3px;
     margin-bottom: 0;
     margin-right: 0;
@@ -191,7 +198,7 @@ ul,ol li{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.23em;
     text-transform: uppercase;
     padding: 10px;
@@ -207,13 +214,47 @@ ul,ol li{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0.23em;
     text-transform: uppercase;
     padding: 10px;
     border-bottom: 3px #201F1F solid;
     text-decoration: none;
     margin: 40px;
+}
+
+.link-previous{
+    float: left;
+    color: #966E3F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px #966E3F solid;
+    text-decoration: none;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+.link-previous:hover{
+    float: left;
+    color: #201F1F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px #201F1F solid;
+    text-decoration: none;
+    margin: 40px;
+    margin-left: 0px;
 }
 
 .info{ 
