@@ -166,7 +166,7 @@ article li{
 
 @media screen and (max-width: 992px) {
     p{
-        font-size: .8em;
+        font-size: .5em;
     }
     a{
         font-size: 2em;
