@@ -327,10 +327,10 @@ ul,ol li{
         display: none;
     }
     .about-content{
-        font-size: 1em;
+        font-size: .8em;
     }
     .media-home p{
-        font-size:1em;
+        font-size:.5em;
     }
     .menu h1{
         font-size: .5em;
