@@ -1,13 +1,17 @@
+p{
+    margin: 5px;
+}
 .container{
     margin: 0;
     margin-top: 80px;
+    margin-left: 35%;
+    width: 65%;
 }
 
 .menu-lateral{
+    width: 30%;
     position: fixed;
-    float: left;
     background-color: #966E3F;
-    flex: 4;
     padding: 20px;
     margin-top: 20px;
 }
@@ -15,13 +19,13 @@
 .menu-lateral h2{
     font-family: Roboto;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.1em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
 .menu-lateral ul{
-    width: 300px;
+    width: 90%;
 }
 
 .menu-lateral a{
@@ -29,7 +33,7 @@
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 13px;
+    font-size: .8em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #D8D8D8; 
@@ -39,14 +43,8 @@
     border-bottom: 2px #d8d8d8 solid;
 }
 
-.menu-lateral a:checked{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+.menu-lateral a:hover{
+    font-size: .9em;
     color: #201F1F; 
     text-decoration: none;
     line-height: 35px;
@@ -54,63 +52,33 @@
     border-bottom: 2px #201f1f solid;
 }
 
-.menu-lateral a:hover{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 14px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #201F1F; 
-    text-decoration: none;
-    line-height: 35px;
-    padding-bottom: 5px;
-    border-bottom: 2px #201f1f solid;
-}
 .content-others{
-    flex: 8;
-    float: right;
-    width: 66,67%;
     margin: 0;
     padding: 0;
+    margin-top: 120px;
 }
 
 .title-others{
     padding: 20px;
-    padding-top: 30px;
-    padding-left: 40px;
     background-image: url(../img/title.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 450px;
-    float: right;
-    width: 912px;
+    background-size: auto;
 }
 
 .title-1-others{
     font-family: Roboto;
+    margin-top: 20px;
     font-size: 48px;
     letter-spacing: 0.23em;
     text-transform: uppercase;
     color: #201F1F;
     margin: 0;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.title-2-others{
-    font-family: Roboto;
-    font-size: 48px;
-    letter-spacing: 0.23em;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.3);
-    margin-top:-63px;
-    margin-left: -3px;
-    margin-bottom: 0;
-    margin-right: 0;
-}
 
 .subtitle-others h3{
-    flex: 5;
     color: #201F1F;
     font-family: Roboto;
     font-style: normal;
@@ -122,7 +90,9 @@
     border-bottom: 3px #201F1F solid;
     text-decoration: none;
     padding-bottom: 5px;
-    padding-top: 30px;
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 .subtitle-others p{
@@ -136,54 +106,91 @@
     letter-spacing: 0.1em;
     padding: 20px;
     background: #d8d8d8;
+    margin: 5%;
 }
+
 article{
+    margin: 0;
+    padding: 10%;
+    padding-bottom: 20px;
     background: #c1c1c1;
-    flex: 8;
-    float: right;
-    width: 612px;
-    margin-right: 33,33%;
-    padding-left: 100px;
-    padding-right: 21px;
-    margin-right: 150px;
 }
-.subtitle-others h3{
-        margin: 0;
-        margin-top: 80px;
+
+.article-interno{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .media{
-    width: 70%;
+    display: block;
     background: #966E3F;
-    float: right;
     box-shadow: -6px -6px 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .media img{
-    padding-top: 40px;
-    padding-left: 125px;
-    width: 640px;
+    width: 90%;
+    padding: 5%;
+    padding-bottom: 0;
 }
 
 .media p{
+    margin: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 13px;
+    font-size: .8em;
     color: #201F1F;
-    padding-left: 125px;
-    padding-bottom: 20px;
-    margin: 0;
+    padding: 10px;
 }
 
-.media iframe{
-    padding-top: 40px;
-    padding-left: 125px;
-    
+.media iframe{ 
+    width: 90%;
+    padding: 5%;
+    padding-bottom: 0;
+
 }
 
 article li{
     list-style: square;
     padding-bottom: 10px;
+}
+
+@media screen and (min-width: 2000px) {
+    .title-others{
+        padding: 20px;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    p{
+        font-size: 1.5em;
+    }
+    a{
+        font-size: 2em;
+    }
+    .menu h1{
+        font-size: .5em;
+    }
+
+    .menu li{
+        display: none;
+    }
+    .title-others{
+        padding: 20px;
+        background-image: none;
+    }
+    .info{
+        display: none;
+    }
+    .menu-lateral{
+        display: none;
+    }
+    .container{
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 90%;
+    }
 }
