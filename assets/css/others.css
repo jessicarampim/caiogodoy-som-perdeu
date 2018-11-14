@@ -166,7 +166,11 @@ article li{
 
 @media screen and (max-width: 992px) {
     p{
-        font-size: .8em;
+        font-size: 1em;
+    }
+    
+    .media p{
+        font-size: .7em;
     }
     
     .menu li{
